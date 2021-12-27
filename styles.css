@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    margin: 30px;
+}
+
+.container {
+    border: solid 2px grey;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+}
+
+h2 {
+    margin: 20px auto;
+}
+
+
+/* Colours */
+
+.colours {
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.colours div {
+    vertical-align: middle;
+}
+
+.colours:hover {
+    opacity: 0.8;
+    transition: .5s;
+}
+
+span {
+    display: block;
+}
+
+#mediumTurquoise {
+    background-color: rgb(72, 209, 204);
+}
+
+#mediumVioletRed {
+    background-color: rgb(199, 21, 133);
+}
+
+#cream {
+    background-color: rgb(253, 245, 230);
+}
+
+#olive {
+    background-color: rgb(122, 122, 0);
+}
+
+
+/* Fonts */
+
+h3 {
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+p {
+    margin: 10px;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#open {
+    font-family: "Open Sans", serif;
+}
+
+#roboto {
+    font-family: "Roboto Condensed", serif;
+}
+
+#source {
+    font-family: "Source Code Pro", monospace;
+}
